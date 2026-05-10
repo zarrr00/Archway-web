@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Google Fonts fallback ── */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@500;600;700&display=swap');
+
+/* ── CSS Variables ── */
+:root {
+  --cyan:        #00d4ff;
+  --cyan-dim:    #0077cc;
+  --bg:          #020c1b;
+  --card-bg:     rgba(255, 255, 255, 0.92);
+  --icon-bg:     #050f1d;
+}
+
+/* ── Reset & Base ── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg);
+  font-family: 'Rajdhani', sans-serif;
+  color: #eef6ff;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Custom Scrollbar ── */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 212, 255, 0.3);
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 212, 255, 0.6);
+}
+
+/* ── Utility: font families ── */
+.font-orbitron { font-family: 'Orbitron', monospace; }
+.font-rajdhani { font-family: 'Rajdhani', sans-serif; }
+
+/* ── Utility: text glow ── */
+.text-glow {
+  text-shadow:
+    0 0 12px rgba(0, 212, 255, 0.7),
+    0 0 30px rgba(0, 212, 255, 0.3);
+}
+
+/* ── Utility: cyan gradient text ── */
+.gradient-text {
+  background: linear-gradient(135deg, #00d4ff 0%, #0077cc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
