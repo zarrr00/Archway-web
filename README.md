@@ -16,45 +16,22 @@ React + Vite + Tailwind + Framer Motion
 npm install
 ```
 
-### Tambah video background
-Taruh file video kamu di:
-```
-src/assets/videos/background.webm
-```
-
 ### Jalankan dev server
 ```bash
 npm run dev
 ```
-
-Buka browser → `http://localhost:5173`
 
 ### Build untuk production
 ```bash
 npm run build
 ```
 
-Output ada di folder `dist/`
-
----
-
-## Edit konten
-
-Semua tombol & link ada di satu file:
-```
-src/data/links.js
-```
-
-Ganti `url`, `title`, dan `icon` sesuai kebutuhan.
-
----
-
 ## Struktur
 ```
 src/
 ├── assets/
 │   ├── images/
-│   ├── videos/        ← taruh background.webm di sini
+│   ├── videos/        
 │   └── icons/
 ├── components/
 │   ├── Hero.jsx
@@ -63,7 +40,7 @@ src/
 │   ├── Socials.jsx
 │   └── BackgroundEffects.jsx
 ├── data/
-│   └── links.js       ← edit tombol di sini
+│   └── links.js       
 ├── styles/
 │   ├── globals.css
 │   └── animations.css
