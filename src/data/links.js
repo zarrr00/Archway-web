@@ -16,6 +16,12 @@ export const socialLinks = [
     url: 'https://t.me/arch1fs',
   },
   {
+  id: 'fb-owner',
+  label: 'Facebook',
+  icon: 'FaFacebook',
+  url: 'https://facebook.com/USERNAME_ATAU_ID',
+  },
+  {
     id: 'website',
     label: 'Website',
     icon: 'FaGlobe',
@@ -34,7 +40,7 @@ export const menuLinks = [
     image: null,
     badge: 'OWNER',
     badgeColor: '#1a7c3e',
-    url: 'https://wa.me/6288293573974',
+    url: 'https://wa.me/088293573974',
   },
   {
     id: 'tg-owner',
@@ -47,6 +53,18 @@ export const menuLinks = [
     badgeColor: '#1a5c9e',
     url: 'https://t.me/arch1fs',
   },
+    {
+  id: 'fb-owner',
+  section: null,
+  title: 'Facebook Owner',
+  subtitle: 'Follow/DM via Facebook',
+  icon: 'FaFacebook',
+  image: null,
+  badge: 'OWNER',
+  badgeColor: '#1a5c9e',
+  url: 'https://www.facebook.com/share/1bpJa2hvzX/',
+    	
+    },
 {
   id: 'wa-bot-ppob',
   section: null,
@@ -67,7 +85,7 @@ export const menuLinks = [
   image: null,
   badge: 'BOT',
   badgeColor: '#7a3a00',
-  url: 'https://wa.me/6285177852651',
+  url: 'https://wa.me/89678654069',
   },
   {
     id: 'tg-bot',
@@ -80,7 +98,6 @@ export const menuLinks = [
     badgeColor: '#7a3a00',
     url: 'https://t.me/arcwhayfast1_bot',
   },
-
   // ── WEBSITE ─────────────────────────────
   {
     id: 'website',
@@ -93,6 +110,7 @@ export const menuLinks = [
     badgeColor: null,
     url: 'https://web.xoftware.id/archway',
   },
+  
 
   // ── GRUP & KOMUNITAS ─────────────────────
   {
@@ -127,5 +145,17 @@ export const menuLinks = [
   badge: 'CHANNEL',
   badgeColor: '#5a1a9e',
   url: 'https://whatsapp.com/channel/0029VbClCtf002TEYinDHQ0T',
+  },
+  {
+  id: 'testimoni',
+  section: 'Testimoni & Bukti',
+  title: 'Testimoni Pelanggan',
+  subtitle: 'Bukti transaksi & review',
+  icon: 'FaStar',
+  image: null,
+  badge: null,
+  badgeColor: null,
+  url: 'https://whatsapp.com/channel/0029VbCQ4Bh5vKA6BQkrjF0T',
+  	
   },
 ]

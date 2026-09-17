@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import {
   FaWhatsapp, FaTelegram, FaGlobe,
-  FaUsers, FaShoppingBag, FaBullhorn,
+  FaUsers, FaShoppingBag, FaBullhorn, FaFacebook,
 } from 'react-icons/fa'
 
 // ── Static imports — Vite hanya bisa bundle import statis ──
@@ -9,7 +9,7 @@ import gbMarketImg from '../assets/images/gb-market.jpg'
 
 const ICON_MAP = {
   FaWhatsapp, FaTelegram, FaGlobe,
-  FaUsers, FaShoppingBag, FaBullhorn,
+  FaUsers, FaShoppingBag, FaBullhorn, FaFacebook,
 }
 
 // Map nama file → imported asset

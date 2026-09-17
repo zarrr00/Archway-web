@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion'
-import { FaWhatsapp, FaTelegram, FaGlobe } from 'react-icons/fa'
+import { FaWhatsapp, FaTelegram, FaGlobe, FaFacebook } from 'react-icons/fa'
 import { socialLinks } from '../data/links'
 
-const ICON_MAP = { FaWhatsapp, FaTelegram, FaGlobe }
+const ICON_MAP = { FaWhatsapp, FaTelegram, FaGlobe, FaFacebook, }
 
 export default function Socials() {
   return (
