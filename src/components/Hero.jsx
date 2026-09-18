@@ -91,7 +91,7 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.18, duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
       >
-        @archwayid
+        @Djelista
       </motion.h1>
 
       {/* brand name */}
@@ -102,7 +102,7 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.25, duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
       >
-        Archway Indonesia
+        Djelista Store
       </motion.p>
 
       {/* tagline */}
@@ -113,7 +113,7 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.32, duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
       >
-        Jasa Post · Stok Akun · Tampung Akun
+        all premium apps - murah - bergaransi
       </motion.p>
 
     </div>

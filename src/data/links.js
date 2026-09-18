@@ -65,17 +65,6 @@ export const menuLinks = [
   url: 'https://www.facebook.com/share/1bpJa2hvzX/',
     	
     },
-{
-  id: 'wa-bot-ppob',
-  section: null,
-  title: 'WhatsApp PPOB/GAME',
-  subtitle: 'Bot PPOB & top up game',
-  icon: 'FaWhatsapp',
-  image: null,
-  badge: 'BOT',
-  badgeColor: '#7a3a00',
-  url: 'https://wa.me/6289678654069',
-},
   {
   id: 'wa-bot-premium',
   section: null,
@@ -87,17 +76,7 @@ export const menuLinks = [
   badgeColor: '#7a3a00',
   url: 'https://wa.me/89678654069',
   },
-  {
-    id: 'tg-bot',
-    section: null,
-    title: 'Telegram Bot',
-    subtitle: 'Bot order otomatis',
-    icon: 'FaTelegram',
-    image: null,
-    badge: 'BOT',
-    badgeColor: '#7a3a00',
-    url: 'https://t.me/arcwhayfast1_bot',
-  },
+
   // ── WEBSITE ─────────────────────────────
   {
     id: 'website',
@@ -113,28 +92,6 @@ export const menuLinks = [
   
 
   // ── GRUP & KOMUNITAS ─────────────────────
-  {
-    id: 'gb-ft',
-    section: 'Grup & Komunitas',
-    title: 'GB FT Archway',
-    subtitle: 'Grup jual beli free transfer',
-    icon: 'FaUsers',
-    image: null,           // kirim foto grupnya nanti
-    badge: 'WA GROUP',
-    badgeColor: '#1a7c3e',
-    url: 'https://chat.whatsapp.com/LvjmeE6pXY340ItPS4FGvS?mode=gi_t',
-  },
-  {
-    id: 'gb-market',
-    section: null,
-    title: 'GB Terbuka / Market',
-    subtitle: 'Marketplace akun Archway',
-    icon: 'FaUsers',
-    image: 'gb-market.jpg',   // foto sudah ada
-    badge: 'WA GROUP',
-    badgeColor: '#1a7c3e',
-    url: 'https://chat.whatsapp.com/EgOnSEgYNjZ99eDALYFefX?mode=gi_t',
-  },
   {
     id: 'saluran',
   section: null,

@@ -25,7 +25,8 @@ export default function App() {
           animate={{ opacity: 1 }}
           transition={{ delay: 1.8, duration: 1 }}
         >
-          © 2025 <span style={{ color: 'rgba(255,255,255,0.35)' }}>Archway Indonesia</span>
+          © 2025 <span style={{ color: 'rgba(255,255,255,0.35)' }}>Djelista
+          Store</span>
         </motion.p>
       </main>
     </div>
